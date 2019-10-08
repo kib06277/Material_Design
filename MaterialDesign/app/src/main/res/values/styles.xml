@@ -1,0 +1,88 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="LinearProgress" parent="Theme.AppCompat.Light">
+        <item name="colorAccent">#f00</item>
+    </style>
+
+    <style name="MyCardViewStyle" parent="Theme.AppCompat.Light">
+        <item name="contentPaddingBottom">24dp</item>
+        <item name="contentPaddingTop">24dp</item>
+        <item name="contentPaddingLeft">16dp</item>
+        <item name="contentPaddingRight">16dp</item>
+        <item name="cardBackgroundColor">@color/colorAccent</item>
+        <!--圓角-->
+        <item name="cardCornerRadius">5dp</item>
+        <!--陰影高度-->
+        <item name="cardElevation">5dp</item>
+    </style>
+
+    <style name="TabLayoutStyle" parent="Widget.Design.TabLayout">
+        <!--Tab 的最大寬度-->
+        <item name="tabMaxWidth">200dp</item>
+        <!--下方指示器的顏色 = 粉色-->
+        <item name="tabIndicatorColor">#f50057</item>
+        <!--下方指示器高度-->
+        <item name="tabIndicatorHeight">2dp</item>
+        <!--Tab 之間的間距-->
+        <item name="tabPaddingStart">30dp</item>
+        <item name="tabPaddingEnd">30dp</item>
+        <item name="tabBackground">@color/colorAccent</item>
+        <!--Tab 選中時文字外觀-->
+        <item name="tabSelectedTextColor">@android:color/white</item>
+    </style>
+
+    <style name="TabTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#e51c23</item>
+        <item name="textAllCaps">true</item>
+    </style>
+
+    <style name="RatingBar" parent="Theme.AppCompat">
+        <item name="colorControlNormal">#ff0</item>
+        <item name="colorControlActivated">#f00</item>
+    </style>
+    <!--dialog 樣式-->
+    <style name="MyDialogTheme" parent="Theme.AppCompat.Light.Dialog">
+        <!--按鈕顏色-->
+        <item name="colorAccent">@color/colorAccent</item>
+        <!--標題與內容顏色-->
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <!--dialog 背景顏色-->
+        <item name="android:windowBackground">@drawable/dialogbg</item>
+    </style>
+    <style name="MyErrorText" parent="TextAppearance.AppCompat.Small">
+        <!--設置錯誤的顏色-->
+        <item name="android:textColor">#ff0</item>
+    </style>
+    <style name="MyEditText" parent="Theme.AppCompat.Light">
+        <!--默認的顏色-->
+        <item name="colorControlNormal">#0ff</item>
+        <!--點擊時的顏色-->
+        <item name="colorControlActivated">#f0f</item>
+    </style>
+    <style name="MySwitch" parent="Theme.AppCompat.Light">
+        <!-- active thumb & track color (30% transparency) -->
+        <item name="colorControlActivated">#f00</item>
+        <!-- inactive thumb color 初始顏色-->
+        <item name="colorSwitchThumbNormal">#00f</item>
+        <!-- inactive track color (30% transparency) 移動後的顏色 -->
+        <item name="android:colorForeground">#ff0</item>
+    </style>
+    <style name="ImageTranslucentTheme" parent="AppTheme">
+        <!--在 Android 4.4 之前的版本上執行，直接跟隨系統主題-->
+    </style>
+    <style name="SearchViewTheme" >
+        <!--激活顏色 藍色-->
+        <item name="colorControlActivated">#3f51b5</item>
+        <!--沒激活顏色 綠色-->
+        <item name="colorControlNormal">#009688</item>
+    </style>
+</resources>
